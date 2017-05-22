@@ -1,0 +1,74 @@
+div {
+    width: 250px;
+    height: 190px;
+    border-style: double;
+    background: #00BFFF;
+    border-color: #00CD66;
+    font-size: 50px;
+    text-align: center
+}
+#pt1 {
+    -webkit-transform: scale(0.5);
+    /* prefixo para browsers webkit */
+    
+    transform: scale(0.5);
+}
+#pt1:hover {
+    -webkit-transition: 2s; /* TEMPO QUE VAI LEVAR PARA REALIZAR A FUNÇÃO */
+    -webkit-transform: scale(1.3);
+    /*navegador chorme e fire */
+    
+    transform: scale(1.3);
+}
+#pt2 {
+    -webkit-transform: scale(0.5);
+    /*navegador chorme e fire */
+    
+    transform: scale(0.5);
+}
+#pt2:hover {
+    -webkit-transition: 2s;
+    -webkit-transform: scale(1.3) skew(15deg);
+    /* navegador chorme e fire */
+    
+    transform: scale(1.3) skew(15deg);
+}
+#pt3 {
+    -webkit-transform: scale(0.5);
+    /* navegador chorme e fire */
+    
+    transform: scale(0.5);
+}
+#pt3:hover {
+    -webkit-transition: 5s;
+    transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    -webkit-transform: skew(30deg, 30deg);
+}
+#pt4 {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+}
+#pt4:hover {
+    -webkit-transform: scale(1.3) rotate(180deg);
+    transform: scale(0.5) rotate(180deg);
+}
+#pt5 {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+}
+#pt5:hover {
+    -webkit-transition: 2s;
+    -webkit-transform: scale(1.3) rotate(180deg);
+    transform: scale(0.5) rotate(180deg);
+}
+#pt6 {
+    -webkit-transition: width 2s, height 2s;
+    /* For Safari 3.1 to 6.0 */
+    
+    transition: width 2s, height 4s;
+}
+#pt6:hover {
+    width: 300px;
+    height: 290px;
+}
